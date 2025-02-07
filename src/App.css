@@ -1,0 +1,59 @@
+.included::marker{
+  content: "✔";
+  font-size: 20px;
+  color: rgb(45 128 22);
+}
+
+.notIncluded::marker{
+  content: "❌";
+  font-size: 16px;
+}
+
+li, button{
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+button{
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: auto;
+}
+
+li {
+  margin-top: 25px;
+}
+
+h2, p{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 32px;
+}
+p {
+  font-weight: 300;
+}
+
+.card:hover{
+  scale: 1.227;
+}
+
+#wrapper
+{
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 600px;
+  margin: 50px auto;
+}
+
+li:first-child{
+  margin-top: 0;
+}
