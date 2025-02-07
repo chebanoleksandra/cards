@@ -2,11 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import { PackageCard } from './HW';
 
-// const arr= [{isInPackage: true, benefit: "Sample Text Here"}, 
-// {isInPackage: true, benefit: "Other Text Title"}, 
-// {isInPackage: true, benefit: "Text Space Goes Here"}, 
-// {isInPackage: false, benefit: "Description Space"}] 
-
 const Card1 = {
   title: 'Basic',
   price: 2.99,
